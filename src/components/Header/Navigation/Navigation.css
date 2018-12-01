@@ -1,0 +1,18 @@
+
+.Navigation ul{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.Navigation li{
+    color:white;
+    list-style:none;
+   
+}
+
+a{
+    list-style: none;
+    color:white;
+    text-decoration: none;
+}

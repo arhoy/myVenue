@@ -1,0 +1,39 @@
+.VenueItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+    padding-top: 4rem;
+    color:white;
+    border: 2px dashed white;
+    margin: 5rem 1rem;
+    position: relative;
+
+}
+.info_blurb{
+    text-align: center;
+}
+.icon{
+    height: 2rem;
+    width: 2rem;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  
+}
+.icon__holder{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -28px;
+    left: 6px;
+}

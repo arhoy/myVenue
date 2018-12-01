@@ -1,0 +1,12 @@
+.Header{
+    width: 100%;
+}
+.IconButton{
+    color:white !important;
+    background-color: red;
+}
+
+.Toolbar{
+    display: flex;
+    justify-content: space-between;
+}

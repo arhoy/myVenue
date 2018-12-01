@@ -1,0 +1,22 @@
+.Button{
+    background: white;
+    padding: 1rem 2rem;
+    border: none;
+    color:white;
+    font-size: 1.3rem;
+    display: inline-block;
+    width: 12rem;
+    align-self: center;
+    cursor: pointer;
+}
+.Red{
+    background-color: red;
+}
+.Green{
+    background-color:  rgb(4, 158, 63);
+   
+}
+.Green:hover{
+    background-color: rgb(3, 138, 55);
+   
+}

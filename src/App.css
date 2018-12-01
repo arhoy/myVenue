@@ -1,0 +1,40 @@
+.App{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+
+}
+
+.App__header{
+    grid-row: 1/3;
+    grid-column: 1/-1;
+}
+
+.App__featured{
+    grid-row: 1/3;
+    grid-column: 1/-1;
+}
+.App__venueInfo{
+    grid-row: 3/4;
+    grid-column: 1/-1;
+}
+.App__highlights{
+    grid-row: 4/5;
+    grid-column: 1/-1;
+}
+.App__pricing{
+    grid-row: 5/6;
+    grid-column: 1/-1;
+}
+.App__googleMaps{
+    grid-row: 6/7;
+    grid-column: 1/-1;  
+}
+.App__search{
+    grid-row: 7/8;
+    grid-column: 1/-1;  
+}
+.App__footer{
+    grid-row: 8/9;
+    grid-column: 1/-1;  
+}
